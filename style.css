@@ -1,8 +1,8 @@
 :root {
   /* Colors */
-  --background-color: #131313;
-  --default-color: #3a3a3a;
-  --heading-color: #ffffff;
+  --background-color: #ffffff;
+  --default-color: #686868;
+  --heading-color: #303030;
   --accent-color: #f89412;
   --surface-color: #ffffff;
   --contrast-color: #ffffff;
@@ -35,18 +35,49 @@ a:hover {
   text-decoration: none;
 }
 
-h1,
+
+h1{
+  color: var(--heading-color);
+  margin-bottom: 1rem!important;
+  font-size: 3.4rem!important;
+  line-height: 64px!important;
+}
 h2,
 h3,
 h4,
 h5,
 h6 {
   color: var(--heading-color);
-  font-family: var(--heading-font);
-  margin-bottom: 1rem;
+  margin-bottom: 1rem!important;
+  font-size: 2.5rem!important;
+  font-weight: 600!important;
+  line-height: 48px!important;
 }
 p {
-  color: var(--default-color);
-  font-family: var(--default-font);
-  margin-bottom: 1rem;
+  color: var(--default-color)!important;
+  margin-bottom: 1rem!important;
+  font-size: 1rem!important;
+}
+
+.heading, .heading-both {
+  display: flex;
+  flex-direction: row;
+}
+.heading:before,.heading-both:before,.heading-both:after{
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid!important;
+  margin: auto;
+}
+.heading:after{
+  content: "";
+  flex: 1 1;
+  border-bottom: 0px solid;
+  margin: auto;
+}
+.heading:before,.heading-both:before {
+  margin-right: 10px
+}
+.heading:after, .heading-both:after {
+  margin-left: 10px
 }
