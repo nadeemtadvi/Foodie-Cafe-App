@@ -81,3 +81,21 @@ p {
 .heading:after, .heading-both:after {
   margin-left: 10px
 }
+
+
+.swiper-pagination {
+margin-top: 1.5rem;
+  position: static!important;
+
+}
+.swiper-pagination-bullet {
+  width: 14px!important;
+  height: 14px!important;
+ 
+}
+ .swiper-pagination-bullet-active {
+  background: var(--accent-color)!important; 
+  transform: scale(1.2); 
+}
+
+
