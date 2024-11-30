@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              backgroundcolor: "#ffffff",
+              defaultcolor: "#686868",
+              headingcolor: "#303030",
+              accentcolor: "#f89412",
+              surfacecolor: "#ffffff",
+              contrastcolor: "#ffffff",
+            },
+            fonts: {
+              defaultfont: [
+                "Roboto",
+                "system-ui",
+                "-apple-system",
+                
+              ],
+              headingfont: ["Raleway", "sans-serif"],
+              navfont: ["Poppins", "sans-serif"],
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <!-- Navbar start -->
+    <div class="">
+      <div class="max-w-screen-lg mx-auto">
+        <div class="p-5 flex justify-between items-center w-full">
+          <div class="text-headingcolor font-medium text-[1.26rem]">LOGO</div>
+          <ul class="text-defaultcolor flex gap-10 font-normal text-[1.2rem]">
+            <li>Menu</li>
+            <li>About</li>
+            <li>Gallery</li>
+            <li>Events</li>
+            <li>Contact</li>
+          </ul>
+          <button
+            class="font-medium text-[1.26rem] rounded-tr-[10px] bg-accentcolor p-5"
+          >
+            Login
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navbar end -->
+
+    <script src="main.js"></script>
+  </body>
+</html>

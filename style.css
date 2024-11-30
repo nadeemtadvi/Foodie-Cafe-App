@@ -1,0 +1,52 @@
+:root {
+  /* Colors */
+  --background-color: #131313;
+  --default-color: #3a3a3a;
+  --heading-color: #ffffff;
+  --accent-color: #f89412;
+  --surface-color: #ffffff;
+  --contrast-color: #ffffff;
+
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/*--------------------------------------------------------------
+# General Styling & Shared Classes
+--------------------------------------------------------------*/
+body {
+  color: var(--default-color);
+  font-family: var(--default-font);
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: color-mix(in srgb, var(--accent-color), transparent 25%);
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--heading-color);
+  font-family: var(--heading-font);
+  margin-bottom: 1rem;
+}
+p {
+  color: var(--default-color);
+  font-family: var(--default-font);
+  margin-bottom: 1rem;
+}
