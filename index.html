@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sham-k-Dawat</title>
+    <title>Shami Darbar</title>
     <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico" />
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
@@ -46,7 +46,7 @@
           <div class="p-3 flex justify-between items-center w-full">
             <div class="text-headingcolor font-medium text-[1.26rem]">
               <img
-                src="./assets//images/Logo.png"
+                src="./assets/images/Logo.png"
                 alt="logo"
                 class="w-[168px]"
               />
@@ -65,8 +65,32 @@
             <button
               class="font-normal text-[1.12rem] rounded-tl-[10px] rounded-br-[10px] bg-accentcolor text-white p-[4px_24px_6px]"
             >
-              Book a tale
+              Book a Table
             </button>
+            <div class="relative md:hidden">
+              <button
+                id="dropdown-toggle"
+                class="text-defaultcolor font-normal text-[1.12rem]"
+                aria-expanded="false"
+              >
+                <i class="ri-menu-5-fill text-[1.62rem]"></i>
+              </button>
+              <div
+                id="dropdown-backdrop"
+                class="hidden fixed inset-0 bg-black bg-opacity-50 z-10"
+              ></div>
+              <ul
+                id="dropdown-menu"
+                class="z-20 shadow-[rgba(0,0,0,0.25)_0px_14px_28px,rgba(0,0,0,0.22)_0px_10px_10px] absolute w-[120px] top-10 right-0 hidden bg-white rounded-lg py-2 text-defaultcolor text-[1.12rem] font-normal"
+              >
+                <li class="px-4 pb-2 hover:bg-gray-100">Menu</li>
+                <li class="px-4 pb-2 hover:bg-gray-100">About</li>
+                <li class="px-4 pb-2 hover:bg-gray-100">Gallery</li>
+                <li class="px-4 pb-2 hover:bg-gray-100">Events</li>
+                <li class="px-4 pb-2 hover:bg-gray-100">Contact</li>
+              </ul>
+            </div>
+            
           </div>
         </div>
       </header>
@@ -77,8 +101,9 @@
         <div class="p-3 md:grid grid-cols-2">
           <div>
             <h1 class="font-semibold">
-              Savor the <span class="text-accentcolor">Flavors</span> of
-              Culinary Excellece
+              Taste Beyond
+              <span class="text-accentcolor">Imagination,</span> Joy in Every
+              Bite
             </h1>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint
@@ -133,7 +158,7 @@
               About us
             </h2>
             <h2 class="capitalize">
-              Our <span class="text-accentcolor">Culinary</span> Story
+              Our <span class="text-accentcolor">Flavorful</span> Journey
             </h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
@@ -168,7 +193,7 @@
           </div>
           <div class="swiper">
             <div class="swiper-wrapper">
-              <div class="swiper-slide">
+              <div class="swiper-slide bg-white">
                 <div
                   class="m-4 rounded-[10px] overflow-hidden shadow-[rgba(0,0,0,0.15)_0px_5px_15px_0px] relative"
                 >
@@ -184,7 +209,7 @@
                     </div>
                     <div>
                       <h4 class="!text-[1.25rem] !mb-0 !leading-[30px]">
-                        Italian Cusine Pizza Pasta
+                        Special Dhali
                       </h4>
                       <p class="!text-[0.84rem]">
                         Lorem ipsum, dolor sit amet consectetur adipisicing
@@ -242,7 +267,7 @@
                     </div>
                     <div>
                       <h4 class="!text-[1.25rem] !mb-0 !leading-[30px]">
-                        Italian Cusine Pizza Pasta
+                        Red Curry Special
                       </h4>
                       <p class="!text-[0.84rem]">
                         Lorem ipsum, dolor sit amet consectetur adipisicing
@@ -300,7 +325,7 @@
                     </div>
                     <div>
                       <h4 class="!text-[1.25rem] !mb-0 !leading-[30px]">
-                        Italian Cusine Pizza Pasta
+                        Veggie Curry
                       </h4>
                       <p class="!text-[0.84rem]">
                         Lorem ipsum, dolor sit amet consectetur adipisicing
@@ -358,7 +383,7 @@
                     </div>
                     <div>
                       <h4 class="!text-[1.25rem] !mb-0 !leading-[30px]">
-                        Italian Cusine Pizza Pasta
+                        Hyderabadi Biryani
                       </h4>
                       <p class="!text-[0.84rem]">
                         Lorem ipsum, dolor sit amet consectetur adipisicing
@@ -416,7 +441,7 @@
                     </div>
                     <div>
                       <h4 class="!text-[1.25rem] !mb-0 !leading-[30px]">
-                        Italian Cusine Pizza Pasta
+                        Shahi Biryani
                       </h4>
                       <p class="!text-[0.84rem]">
                         Lorem ipsum, dolor sit amet consectetur adipisicing
@@ -471,7 +496,7 @@
             <h2 class="!mb-0 uppercase !text-[1rem] text-accentcolor">
               Testimonials
             </h2>
-            <h2 class="capitalize">Voices of Delight</h2>
+            <h2 class="capitalize">Words of Joy</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
               accusantium repellendus asperiores, assumenda nihil, soluta
@@ -562,7 +587,11 @@
           <div class="grid grid-cols-3 md:grid-cols-[48%_auto_auto_auto]">
             <div class="col-span-4 md:col-span-1">
               <!-- logo -->
-              <img src="./assets//images/Logo.png" alt="logo" class="mb-4" />
+              <img
+                src="./assets//images/Logo.png"
+                alt="logo"
+                class="mb-4 w-[260px]"
+              />
 
               <p class="md:w-[80%]">
                 "Lorem ipsum dolor sit amet consectetur adipisicing elit.
