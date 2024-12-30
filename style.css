@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Space+Grotesk:wght@300..700&family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 :root {
   /* Colors */
   --background-color: #ffffff;
@@ -33,7 +34,7 @@
 --------------------------------------------------------------*/
 body {
   color: var(--default-color);
-  font-family: "Modern";
+  font-family: "Spectral","Montserrat", serif;
 }
 
 a {
@@ -68,7 +69,8 @@ h6 {
 p {
   color: var(--default-color)!important;
   margin-bottom: 1rem!important;
-  font-size: 1rem!important;
+  font-size: 23px!important;
+  font-weight: 300!important;
 }
 
 .heading, .heading-both {
@@ -130,4 +132,7 @@ h6 {
 }
 main{
   background-image: url("./assets/images/Frame\ 2.png");
+}
+.text-bot{
+  font-size: 18px!important;
 }
