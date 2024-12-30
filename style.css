@@ -72,8 +72,8 @@ h6 {
 p {
   color: var(--default-color)!important;
   margin-bottom: 1rem!important;
-  font-size: 23px!important;
-  font-weight: 300!important;
+  font-size: 20px!important;
+  font-weight: 400!important;
 }
 
 .heading, .heading-both {
